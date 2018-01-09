@@ -1,4 +1,37 @@
+ 
 /*font-family: 'Lato', sans-serif;
 font-family: 'Ropa Sans', sans-serif;
 font-family: 'Quicksand', sans-serif;
 colores: negro = #000000; gris = #F2F2F2; rojo = #DF0101*/
+
+#logo{
+    height: 20em;
+    width: 20em;
+    margin-left:3em; 
+    margin-top:3;
+}
+
+
+
+
+.form-control {
+    display: block;
+    width: 10em;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 8em;
+}
+#btnsingUp{
+    margin-bottom: 1em;
+    width: 7em;
+    background-color: darkgreen;
+    border: none;
+    color: #fff;
+}
