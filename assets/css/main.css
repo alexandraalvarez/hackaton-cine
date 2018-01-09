@@ -2,7 +2,7 @@
 /*font-family: 'Lato', sans-serif;
 font-family: 'Ropa Sans', sans-serif;
 font-family: 'Quicksand', sans-serif;
-colores: negro = #000000; gris = #F2F2F2; rojo = #DF0101*/
+colores: negro =  gris = #F2F2F2; rojo = #DF0101*/
 
 #logo{
     height: 20em;
@@ -30,8 +30,10 @@ colores: negro = #000000; gris = #F2F2F2; rojo = #DF0101*/
 }
 #btnsingUp{
     margin-bottom: 1em;
-    width: 7em;
-    background-color: darkgreen;
+    margin-top:2em;
+    margin-left: 6em;
+    width: 13em;
+    background-color: #DF0101;;
     border: none;
-    color: #fff;
+    color: #000000;
 }
