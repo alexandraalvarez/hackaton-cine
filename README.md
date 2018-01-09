@@ -22,6 +22,10 @@
     1. Lato
     2. Ropa Sans
     3. Quicksand
+    
+    Framework: Bootstrap.
+    Base de datos: Firebase.
+    API: http://www.omdbapi.com/
 
 + Validación de la idea principal (50 minutos):
 
