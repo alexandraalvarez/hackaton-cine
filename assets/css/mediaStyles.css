@@ -9,5 +9,13 @@
 }
 
 @media (min-width: 200px) and (max-width: 425px) {
-
+	body .img {
+	width: 10%;
+	}
+	body .img-top-movie {
+	width: 80%;
+	}
+	body .img-movie {
+	width: 80%;
+	}
 }
