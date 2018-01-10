@@ -41,3 +41,14 @@
 
   Maquetado : Alexandra y Estefania (60 minutos).
   Investigación Base de datos y API : Katerine y Roxana (60 minutos).
+  
++ Retrospectiva:
+
+  Ver lo que avanzó cada integrante y planificación para el día 10. Terminar maquetación y funcionalidades.
+   
+  ## Planificación 10/01:
+  
+ + Daily
+ 
+ - Logramos guardar los datos de la información de la api en firebase y terminamos la maquetación del producto.
+ - Preparación de la presentación del producto.
