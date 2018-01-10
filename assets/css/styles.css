@@ -1,12 +1,106 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Ropa Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+colores: negro = #000000;  gris = #F2F2F2; rojo = #DF0101;*/
+/*Formato general del body*/
+body {
+	background-color: #000000;
+	font-family: 'Ropa Sans', sans-serif;
+	color: #FFFFFF;
+}
 body .img {
-	width: 2.5%;
+	background-color: #FFFFFF;
 }
-body .img-top-movie {
+/*Formato general del header*/
+header {
+	background-color: #DF0101;
+}
+header div a .img-logo {
+	margin: 1em;
+	width: 12.5%
+}
+/*Formato general de seccion películas más vistas*/
+.sectn-pop-movies .col {
+	background-color: #F2F2F2;
+}
+.sectn-pop-movies .img-pop-movie {
+	width: 60%;
+	margin: 1em 1em 1em 2.5em;
+	border: 2px solid #000000;
+}
+/*Formato general de la sección película individual en sí*/
+.sectn-movie {	
+	background-color: #F2F2F2;
+}
+.sectn-movie .col {
+	color: #000000;
+	padding: 1em 0;
+}
+.sectn-movie .img-movie {
+	width: 60%;
+}
+.sectn-movie .img-profile {
+	background-color: #FFFFFF;
+	width: 100%;
+}
+.sectn-movie .input-group {
+	margin-right: 0.75em;
+}
+.sectn-movie input {
+	height: 3em;
+	width: 16em;
+	border: none;
+}
+.sectn-movie .btn-movie {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: none;
+}
+/*Formato general de la seccion pefil usuario*/
+.sectn-profile {
+	padding: 1em 0 5em 0;
+}
+.sectn-profile .col {
+	padding: 1em;
+}
+.sectn-profile .btn-profile {
+	border: none;
+}
+.sectn-profile .img-profile {
 	width: 50%;
 }
-body .img-movie {
-	width: 50%;
+.sectn-profile .img-pop-movie {
+	width: 60%;
+	margin: 1em 1em 1em 2.5em;
+	border: 2px solid #FFFFFF;
 }
-body .img-profile {
-	width: 25%;
+/*Formato general del nav*/
+nav {
+	background-color: #DF0101;
+}
+nav .dropup {
+	padding-top: 0.4em;
+}
+nav .btn-group> .btn:first-child {
+	margin-left: 0.75em;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+nav .input-group {
+	margin-right: 0.75em;
+	border-radius: 5px solid #000000;
+}
+nav .input-group input {
+	height: 2.5em;
+}
+nav .input-group span {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: none;
+}
+nav ul li a {
+	background-color: #000000;
+}
+nav .dropdown-menu>li>a {
+	color: #F2F2F2;
 }
