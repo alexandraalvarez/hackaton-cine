@@ -18,8 +18,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<a href="#"><img class="img-responsive img-rounded pull-left img img-logo" alt="Responsive image" src="../images/logo-prueba1.png"></a>
-					<a href="#"><img class="img-responsive img-rounded pull-right img img-logo" alt="Responsive image" src="../images/user-logo.jpg"></a>
+					<a id="logo-home" href="#"><img class="img-responsive img-rounded pull-left img img-logo" alt="Responsive image" src="../images/logo-prueba1.png"></a>
+					<a id="logo-user" href="#"><img class="img-responsive img-rounded pull-right img img-logo" alt="Responsive image" src="../images/user-logo.jpg"></a>
 				</div><!--col-->
 			</div><!--row-->
 		</div><!--container-->
@@ -136,11 +136,9 @@
 			    <span class="sr-only">Toggle Dropdown</span>
 			  </button>
 			  <ul class="nav dropdown-menu">
-			  	<li><a href="#">Perfil</a></li>
-				  <li><a href="#">Favoritas</a></li>
-				  <li><a href="#">Contactos</a></li>
-				  <li><a href="#">Configuración</a></li>
-				  <li><a href="#">Salir</a></li>
+			  	<li id="profile"><a href="#">Perfil</a></li>
+				  <li id="contacts"><a href="#">Contactos</a></li>
+				  <li id="logout"><a href="#">Salir</a></li>
 			  </ul>
 			  <div class="input-group col-xs-9 col-sm-9 col-md-3 col-lg-3 pull-right">
 				  <input type="text" class="form-control" placeholder="Busca">

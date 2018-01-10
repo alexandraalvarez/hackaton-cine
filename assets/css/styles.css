@@ -20,6 +20,9 @@ header div a .img-logo {
 	width: 12.5%
 }
 /*Formato general de seccion películas más vistas*/
+.sectn-pop-movies {
+	padding-bottom: 5em;
+}
 .sectn-pop-movies .col {
 	background-color: #F2F2F2;
 }
