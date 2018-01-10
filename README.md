@@ -52,3 +52,4 @@
  
  - Logramos guardar los datos de la información de la api en firebase y terminamos la maquetación del producto.
  - Preparación de la presentación del producto.
+![imagen subida desde ios](https://user-images.githubusercontent.com/30236307/34795685-ddf7143c-f631-11e7-9266-9ad2d9d35b8d.jpg)
