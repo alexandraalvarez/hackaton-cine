@@ -27,7 +27,7 @@ $('.img-pop-movie').click( function(){
 	$('.sectn-profile').hide();
 });//final función.click menu ...no tocar
 
-<<<<<<< 71e063bf22738c5d219c668f47cd7dbe8f8d66b9
+
 //Al hacer click en el boton de registro con google:
 document.getElementById('btnsignUp').addEventListener('click',GoogleSignUp, false);
 // Initialize Firebase
