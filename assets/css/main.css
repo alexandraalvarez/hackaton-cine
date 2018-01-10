@@ -1,4 +1,4 @@
- 
+
 /*font-family: 'Lato', sans-serif;
 font-family: 'Ropa Sans', sans-serif;
 font-family: 'Quicksand', sans-serif;
@@ -7,19 +7,18 @@ colores: negro =  gris = #F2F2F2; rojo = #DF0101*/
 
 
 #logo{
-    height: 15em;
-    width: 15em;
-    margin-left:6em; 
-    margin-top: 7em;
-   
+  height: 15em;
+  width: 15em;
+  margin-left:6em;
+  margin-top: 7em;
 }
-
-#btnsingUp{
-    margin-top:7em;
-    margin-left: 8em;
-    width: 13em;
-    background-color: #DF0101;;
-    border: none;
-    color: #000000;
-    font-family: 'Lato';
+#btnsignUp{
+  margin-bottom: 1em;
+  margin-top:2em;
+  margin-left: 6em;
+  width: 13em;
+  background-color: #DF0101;;
+  border: none;
+  color: #fff;
+  outline: none;
 }
