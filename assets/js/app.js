@@ -1,4 +1,5 @@
 $(document).ready( function(){
+	$('.content').hide() //esconder el home
 	$('.sectn-movie').hide();//esconder sección perfil película en sí
 	$('.sectn-profile').hide();//esconder sección perfil
 });//final funcion.ready...no tocar*/
@@ -51,7 +52,7 @@ function GoogleSignUp(){
     firebase.auth().signInWithPopup(provider).then(function(result) {
       token = result.credential.accessToken;
       user = result.user;
-      $('.inicio').hide() && $('.search-section').show();
+      $('.init').hide() && $('.content').show();
       //sacar el nombre de usuario
       //console.log(user.displayName);
       //sacar la foto de usuario
@@ -96,17 +97,6 @@ function apiCall(movie){
       });
     })
 }
-//perfil del usuario
-movieData.on('value', function(snapshot){
-    snapshot.forEach(function(e){
-    var Objeto = e.val();
-    //console.log(Objeto.urlLarge);
-    if(Objeto.posterMovie!=null){
-      $(".perfil").append('<div class="col-xs-12"><p class="col-xs-12 col-md-6">' + Objeto.user + '</p><img class="col-xs-12 img-thumbnail" src="' + Objeto.posterMovie + '"/></div>')
-    }
-    })
-})
-
 //hago click en el buscador de peliculas
   $('#submit-movie').click(function(){
     var movieSearch = $('#busqueda').val();
@@ -119,4 +109,3 @@ var movieData = firebase.database().ref('movies');
 $('.btn-profile').click(function(){
 
 });
-
