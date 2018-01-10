@@ -1,46 +1,32 @@
-/*@media (min-width: 1025px) and (max-width: 1600px){ /*Para visualizar en formato laptop-L*/
-	/*body .img {
-	width: 3%;
-	}
-	body .img-pop-movie {
-	width: 80%;
-	}
-	body .img-movie {
-	width: 80%;
-	}
+@media (min-width: 1025px) and (max-width: 1600px){ /*Para visualizar en formato laptop-L*/
+	
 }
 @media (min-width: 771px) and (max-width: 1024px) {/*Para visualizar en formato laptop*/
-	/*body .img {
-	width: 5%;
+	header div a .img-logo {/*imágenes del header*/
+	width: 5%
 	}
-	body .img-pop-movie {
-	width: 80%;
-	}
-	body .img-movie {
-	width: 80%;
+	.sectn-pop-movies .img-pop-movie {/*imágenes de las películas más populares*/
+	width: 40%;
 	}
 }
 @media (min-width: 426px) and (max-width: 770px) {/*Para visualizar en formato tablet*/
-   /*body .img {
-	width: 5%;
+   header div a .img-logo {/*imágenes del header*/
+	width: 5%
 	}
-	body .img-pop-movie {
-	width: 80%;
+	.sectn-pop-movies .img-pop-movie {/*imágenes de las películas más populares*/
+	width: 40%;
 	}
-	body .img-movie {
-	width: 80%;
+	.sectn-movie .img-movie {/*imágenes de la película individual en sí*/
+	width: 40%;
+	}
+	.sectn-profile .img-profile {/*imagen del perfil*/
+	width: 30%;
+	}
+	.sectn-profile .img-pop-movie {/*imágenes de la lista personal de favoritas*/
+	width: 40%;
 	}
 }
 
 @media (min-width: 200px) and (max-width: 425px) {/*Para visualizar en formato mobile*/
-	/*Formato general del body*/
-	/*body .img {
-	width: 10%;
-	}
-	body .img-pop-movie {
-	width: 80%;
-	}
-	body .img-movie {
-	width: 80%;
-	}
+	
 }

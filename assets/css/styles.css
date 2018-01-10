@@ -27,6 +27,14 @@ header div a .img-logo {
 	width: 60%;
 	margin: 1em 1em 1em 2.5em;
 	border: 2px solid #000000;
+	padding: 1em;
+}
+.sectn-pop-movies .col-big .img-pop-movie {
+	width: 15%;
+	margin: 2em;
+	border: 2px solid #000000;
+	padding: 1em;
+	display: inline-block;
 }
 /*Formato general de la sección película individual en sí*/
 .sectn-movie {	
@@ -73,6 +81,14 @@ header div a .img-logo {
 	width: 60%;
 	margin: 1em 1em 1em 2.5em;
 	border: 2px solid #FFFFFF;
+	padding: 1em;
+}
+.sectn-profile .col-big .img-pop-movie {
+	width: 15%;
+	margin: 2em;
+	border: 2px solid #000000;
+	padding: 1em;
+	display: inline-block;
 }
 /*Formato general del nav*/
 nav {
