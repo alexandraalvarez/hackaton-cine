@@ -1,5 +1,5 @@
 $(document).ready( function(){
-	//$('.content').hide() //esconder el home
+	$('.content').hide() //esconder el home
 
 	$('.sectn-movie').hide();//esconder sección perfil película en sí
 	$('.sectn-profile').hide();//esconder sección perfil
@@ -117,7 +117,31 @@ function apiCall(movie){
   });
 //guardar en una variable la data de firebase
 var movieData = firebase.database().ref('movies');
-
+//función para el botón agregar amigos
 $('.btn-profile').click(function(){
-
+  
 });
+
+
+/* Efecto 1 */
+$(document).ready(function(){
+  $('#containerSplash').hide(8000);
+  $('.init').show(500);
+}); 
+
+/* Efecto 2 
+
+$(function(){
+  setTimeout(function() {
+    $('#containerSplash').fadeOut(5000);
+  }, 500);
+});
+
+$(function(){
+   setTimeout(function() {
+    $('.init').removeClass('hidden');
+  }, 2000);
+});*/
+
+
+
