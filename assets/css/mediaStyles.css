@@ -2,10 +2,10 @@
 	header div a .img-logo {/*imágenes del header*/
 	width: 5%
 	}
-	.sectn-pop-movies .col-big .img-pop-movie {/*imágenes de las películas más populares*/
+	.sectn-pop-movies .img-pop-movie {/*imágenes de las películas version*/
 	width: 15%;
-	margin: 1em 1em 1em 5.5em;
-	}
+	margin: 4.75em;
+}
 	.sectn-movie .img-movie {/*imágenes de la película individual en sí*/
 	width: 30%;
 	}
@@ -15,9 +15,9 @@
 	.sectn-profile .img-profile {/*imagen del perfil*/
 	width: 30%;
 	}
-	.sectn-profile .col-big .img-pop-movie {/*imágenes de la lista personal de favoritas*/
+	.sectn-profile .img-pop-movie {/*imágenes de la lista personal de favoritas*/
 	width: 15%;
-	margin: 1em 1em 1em 5.5em;
+	margin: 4.8em;
 	}
 	.sectn-contacts .img-contacts {/*imagenes de la lista de amigos*/
 	max-width: 45%;
@@ -27,9 +27,9 @@
 	header div a .img-logo {/*imágenes del header*/
 	width: 7%
 	}
-	.sectn-pop-movies .col-big .img-pop-movie {/*imágenes de las películas más populares*/
+	.sectn-pop-movies .img-pop-movie {/*imágenes de las películas más populares*/
 	width: 15%;
-	margin: 1em 1em 1em 3.75em;
+	margin: 3.25em;
 	}
 	.sectn-movie .img-movie {/*imágenes de la película individual en sí*/
 	width: 30%;
@@ -40,9 +40,9 @@
 	.sectn-profile .img-profile {/*imagen del perfil*/
 	width: 30%;
 	}
-	.sectn-profile .col-big .img-pop-movie {/*imágenes de la lista personal de favoritas*/
+	.sectn-profile .img-pop-movie {/*imágenes de la lista personal de favoritas*/
 	width: 15%;
-	margin: 1em 1em 1em 3.75em;
+	margin: 3.48em;
 	}
 	.sectn-contacts .img-contacts {/*imagenes de la lista de amigos*/
 	max-width: 45%;
@@ -52,8 +52,9 @@
    	header div a .img-logo {/*imágenes del header*/
 	width: 7%
 	}
-	.sectn-pop-movies .col-big .img-pop-movie {/*imágenes de las películas más populares*/
+	.sectn-pop-movies .img-pop-movie {/*imágenes de las películas más populares*/
 	width: 15%;
+	margin: 2.25em;
 	}
 	.sectn-movie .img-movie {/*imágenes de la película individual en sí*/
 	width: 40%;
@@ -61,8 +62,9 @@
 	.sectn-profile .img-profile {/*imagen del perfil*/
 	width: 30%;
 	}
-	.sectn-profile .col-big .img-pop-movie {/*imágenes de la lista personal de favoritas*/
+	.sectn-profile .img-pop-movie {/*imágenes de la lista personal de favoritas*/
 	width: 15%;
+	margin: 2.5em;
 	}
 	.sectn-contacts .img-contacts {/*imagenes de la lista de amigos*/
 	max-width: 45%;

@@ -1,9 +1,9 @@
 $(document).ready( function(){
-
 	//efecto splash
 	$('#containerSplash').hide(8000);
 	$('.init').show(500);
-	$('.content').hide() //esconder el content
+	//$('.content').hide() //esconder el content
+
 	$('.sectn-movie').hide();//esconder sección perfil película en sí
 	$('.sectn-profile').hide();//esconder sección perfil
   $('.sectn-contacts').hide();//esconder seccion amigos
