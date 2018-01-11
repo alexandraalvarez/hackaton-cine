@@ -59,15 +59,15 @@
  -Retrospectiva.
  ## Planificación 11/01:
  
- +Daily
+ + Daily
  
- -Terminar trabajo.
- -Retrospectiva.
+ - Terminar trabajo.
+ - Retrospectiva.
 
 ## Planificación 12/01:
 
-+Daily
++ Daily
 
--Afinar detalles.
--Presentar Demo del producto.
+- Afinar detalles.
+- Presentar Demo del producto.
 
