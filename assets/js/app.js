@@ -1,33 +1,45 @@
 $(document).ready( function(){
-	$('.content').hide() //esconder el home
+	//$('.content').hide() //esconder el home
+
 	$('.sectn-movie').hide();//esconder sección perfil película en sí
 	$('.sectn-profile').hide();//esconder sección perfil
+  $('.sectn-contacts').hide();//esconder seccion amigos
 });//final funcion.ready...no tocar*/
 
 $('#profile').click( function(){
 	$('.sectn-profile').show();
 	$('.sectn-pop-movies').hide();
 	$('.sectn-movie').hide();
+  $('.sectn-contacts').hide();
 });//final función.click menu perfil nav...no tocar
 
 $('#logo-home').click( function(){
 	$('.sectn-pop-movies').show();
 	$('.sectn-profile').hide();
 	$('.sectn-movie').hide();
+  $('.sectn-contacts').hide();
 });//final función.click logo-home header ...no tocar
 
 $('#logo-user').click( function(){
 	$('.sectn-profile').show();
 	$('.sectn-pop-movies').hide();
 	$('.sectn-movie').hide();
+  $('.sectn-contacts').hide();
 });//final función.click logo-user header ...no tocar
 
 $('.img-pop-movie').click( function(){
-	$('.sectn-movie ').show();
+	$('.sectn-movie').show();
 	$('.sectn-pop-movies').hide();
 	$('.sectn-profile').hide();
-});//final función.click menu ...no tocar
+  $('.sectn-contacts').hide();
+});//final función.click pop movie ...no tocar
 
+$('#contacts').click( function(){
+  $('.sectn-contacts').show();
+  $('.sectn-pop-movies').hide();
+  $('.sectn-profile').hide();
+  $('.sectn-movie').hide();
+});//final función.click pop movie ...no tocar
 
 //Al hacer click en el boton de registro con google:
 document.getElementById('btnsignUp').addEventListener('click',GoogleSignUp, false);
