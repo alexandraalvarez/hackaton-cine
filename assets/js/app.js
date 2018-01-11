@@ -1,4 +1,5 @@
 $(document).ready( function(){
+
 	//efecto splash
 	$('#containerSplash').hide(8000);
 	$('.init').show(500);
@@ -6,6 +7,7 @@ $(document).ready( function(){
 	$('.sectn-movie').hide();//esconder sección perfil película en sí
 	$('.sectn-profile').hide();//esconder sección perfil
   $('.sectn-contacts').hide();//esconder seccion amigos
+  $('.sectn-add-contacts').hide();//esconder seccion agregar amigos
 });//final funcion.ready...no tocar*/
 
 $('#profile').click( function(){
@@ -13,6 +15,7 @@ $('#profile').click( function(){
 	$('.sectn-pop-movies').hide();
 	$('.sectn-movie').hide();
   $('.sectn-contacts').hide();
+  $('.sectn-add-contacts').hide();
 });//final función.click menu perfil nav...no tocar
 
 $('#logo-home').click( function(){
@@ -20,6 +23,7 @@ $('#logo-home').click( function(){
 	$('.sectn-profile').hide();
 	$('.sectn-movie').hide();
   $('.sectn-contacts').hide();
+  $('.sectn-add-contacts').hide();
 });//final función.click logo-home header ...no tocar
 
 $('#logo-user').click( function(){
@@ -27,6 +31,7 @@ $('#logo-user').click( function(){
 	$('.sectn-pop-movies').hide();
 	$('.sectn-movie').hide();
   $('.sectn-contacts').hide();
+  $('.sectn-add-contacts').hide();
 });//final función.click logo-user header ...no tocar
 
 $('.img-pop-movie').click( function(){
@@ -34,14 +39,24 @@ $('.img-pop-movie').click( function(){
 	$('.sectn-pop-movies').hide();
 	$('.sectn-profile').hide();
   $('.sectn-contacts').hide();
+  $('.sectn-add-contacts').hide();
 });//final función.click pop movie ...no tocar
 
-$('#contacts').click( function(){
+$('.contacts').click( function(){
   $('.sectn-contacts').show();
   $('.sectn-pop-movies').hide();
   $('.sectn-profile').hide();
   $('.sectn-movie').hide();
-});//final función.click pop movie ...no tocar
+  $('.sectn-add-contacts').hide();
+});//final función.click menu amigos nav ...no tocar
+
+$('.btn-search-friends').click( function(){//para buscar amigos
+  $('.sectn-add-contacts').show();
+  $('.sectn-pop-movies').hide();
+  $('.sectn-profile').hide();
+  $('.sectn-movie').hide();
+  $('.sectn-contacts').hide();
+});//final función.click boton buscar amigos nav ...no tocar
 
 //Al hacer click en el boton de registro con google:
 document.getElementById('btnsignUp').addEventListener('click',GoogleSignUp, false);

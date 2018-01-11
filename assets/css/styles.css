@@ -106,9 +106,78 @@ header div a .img-logo {/*imagenes del header*/
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
 }
+.sectn-contacts a {/*elementos a de la seccion amigos*/
+	text-decoration: none;
+}
+.sectn-contacts .contacts h2 strong {/*titulo de seccion amigos*/
+	color: #DF0101;
+}
 .sectn-contacts a h4 {/*nombre del contacto*/
 	color: #DF0101;
 }
+.sectn-contacts .input-group {/*div del input para buscar películas*/
+	margin-right: 0.75em;
+	border-radius: 5px solid #DF0101;
+}
+.sectn-contacts .input-group input {/*input para buscar películas*/
+	height: 2.5em;
+}
+.sectn-contacts .input-group span {/*span tipo botón para buscar*/
+	background-color: #DF0101;
+	color: #FFFFFF;
+	border: none;
+}
+.sectn-contacts .btn-group> .btn:first-child {/*boton del menu*/
+	margin-left: 0.75em;
+	color: #FFFFFF;
+	background-color: #DF0101;
+}
+/*seccion agregar amigos*/
+.sectn-add-contacts {/*seccion agregar amigos completa*/
+	padding: 1.5em 0 4.5em 0;
+}
+.sectn-add-contacts .col-add-contacts {/*columna que contiene un contacto a agregar*/
+	padding: 1em;
+	border: 5px dashed #F2F2F2;
+	background-color: #000000;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+.sectn-add-contacts .col-add {/*columna que contiene la imágen y botón*/
+	padding: 0; 
+}
+.sectn-add-contacts a {/*elementos a de la seccion agregar amigos*/
+	text-decoration: none;
+}
+.sectn-add-contacts .contacts h2 strong {/*titulo de seccion agregar amigos*/
+	color: #DF0101;
+}
+.sectn-add-contacts a h4 {/*nombre del contacto*/
+	color: #DF0101;
+}
+.sectn-add-contacts .input-group {/*div del input para buscar películas*/
+	margin-right: 0.75em;
+	border-radius: 5px solid #DF0101;
+}
+.sectn-add-contacts .input-group input {/*input para buscar películas*/
+	height: 2.5em;
+}
+.sectn-add-contacts .input-group span {/*span tipo botón para buscar*/
+	background-color: #DF0101;
+	color: #FFFFFF;
+	border: none;
+}
+.sectn-add-contacts .btn-group> .btn:first-child {/*boton del menu*/
+	margin-left: 0.75em;
+	color: #FFFFFF;
+	background-color: #DF0101;
+}
+.sectn-add-contacts .btn-profile {/*boton para seguir como amigo*/
+	border: none;
+	background-color: #DF0101;
+	color: #FFFFFF;	
+}
+
 /*Formato general del nav*/
 nav {/*nav en general*/
 	background-color: #DF0101;
