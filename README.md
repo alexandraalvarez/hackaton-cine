@@ -41,7 +41,7 @@
 
   Maquetado : Alexandra y Estefania (60 minutos).
   Investigación Base de datos y API : Katerine y Roxana (60 minutos).
-<<<<<<< HEAD
+
   
 + Retrospectiva:
 
@@ -56,8 +56,9 @@
  -  ![imagen subida desde ios] (https://user-images.githubusercontent.com/30236307/34795685-ddf7143c-f631-11e7-9266-9ad2d9d35b8d.jpg)
  - Exposición 
  - Seguir con el trabajo.
- -Retrospectiva.
- ## Planificación 11/01:
+ - Retrospectiva.
+
+## Planificación 11/01:
  
  + Daily
  
